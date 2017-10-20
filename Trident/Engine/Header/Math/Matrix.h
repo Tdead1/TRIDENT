@@ -7,16 +7,14 @@
 #include <string>
 
 struct Matrix
-
 {
 	union
- {
+	{
 		float m[4][4];
 
 		float f[16];
 
 		struct
-
 		{
 			Vec3 xAxis;
 
